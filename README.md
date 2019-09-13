@@ -19,7 +19,7 @@ To port the listing data to MongoDB, you will be doing the following:
 - Create a script that converts the JSON entries into Mongo documents and saves the documents to your database
 - Retrieve/update/delete documents through database queries.js
 
-Instructions:
+Instructions:	
 0. Make sure to [register for a MongoDB Atlas account](https://www.mongodb.com/cloud/atlas) before starting the assignment. 
 1. Clone the repository  then install Mongoose and Initiate the repository
 `npm install -g mongoose`

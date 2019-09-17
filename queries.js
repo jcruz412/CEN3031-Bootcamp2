@@ -60,7 +60,9 @@ var retrieveAllListings = function() {
     async function retrieveAll() {
         const newAddress = { address: '1953 Museum Rd, Gainesville, FL 32603' };
         let listing = await Listing.find();
-        console.log(listing);
+        listing.forEach(function (document) {
+            console.log(document);
+        });
     }
     retrieveAll();
 };
@@ -68,4 +70,4 @@ var retrieveAllListings = function() {
 findLibraryWest();
 removeCable();
 updatePhelpsLab();
-retrieveAllListings();
+//retrieveAllListings();

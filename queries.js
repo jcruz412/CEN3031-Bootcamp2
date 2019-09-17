@@ -70,4 +70,4 @@ var retrieveAllListings = function() {
 findLibraryWest();
 removeCable();
 updatePhelpsLab();
-//retrieveAllListings();
+retrieveAllListings();
